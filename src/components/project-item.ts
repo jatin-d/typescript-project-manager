@@ -32,7 +32,6 @@ export class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> impl
 
   @autobind
   dragEndHandler(_: DragEvent) {
-    console.log('Drag End')
   }
 
   configure() {
